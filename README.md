@@ -6,11 +6,13 @@
 ### 📌 Ưu điểm của ESP-NOW:
 ✅ Không cần kết nối Wi-Fi.
 
-✅ Truyền dữ liệu nhanh (<10ms).
+✅ Truyền dữ liệu nhanh (<10ms), (tốt hơn so với WiFi hoặc MQTT).
 
 ✅ Tiêu thụ ít năng lượng.
 
 ✅ Kết nối tối đa 20 thiết bị trong mạng.
+
+✅ Bảo mật cao → Hỗ trợ mã hóa AES 128-bit.
 
 
 ### 📌 Nhược điểm: 
