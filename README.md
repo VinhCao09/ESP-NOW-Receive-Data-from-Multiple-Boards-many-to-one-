@@ -3,6 +3,9 @@
 ## Mô hình ESP-NOW: 1 Master - Nhiều Slave
 ### Master: Nhận dữ liệu từ nhiều Slave.
 ### Slave: Gửi dữ liệu đến Master khi có sự kiện hoặc theo chu kỳ.
+
+## Lưu ý: Xin lưu ý rằng ESP NOW khi dùng chung với thư viện Wifi để kết nối tới Router và giao tiếp với Server sẽ sinh ra lỗi không thể nhận được dữ liệu. Tôi đã nhận dữ liệu và gửi lên Server PHP bằng cáhc config lại file Sender. Tham khảo link sau: https://randomnerdtutorials.com/esp32-esp-now-wi-fi-web-server/
+
 ### 📌 Ưu điểm của ESP-NOW:
 ✅ Không cần kết nối Wi-Fi.
 
